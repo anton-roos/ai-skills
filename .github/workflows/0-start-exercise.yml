@@ -18,10 +18,52 @@ jobs:
     if: |
       !github.event.repository.is_template
     name: Start Exercise
-    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.7.0
-    with:
-      exercise-title: "Business Analysis with MCP and AI"
-      intro-message: "Welcome to the Business Analysis with MCP and AI exercise! This exercise will guide you through the process of analyzing business requirements and leveraging AI tools to enhance your analysis. Let's get started!"
+    runs-on: ubuntu-latest
+    outputs:
+      issue-url: ${{ steps.create-issue.outputs.issue-url }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create welcome issue
+        id: create-issue
+        run: |
+          ISSUE_URL=$(gh issue create \
+            --title "🎯 Welcome to Business Analysis with MCP and AI!" \
+            --body "$(cat << 'EOF'
+          # 🎯 Welcome to Hollard's Business Analysis Training!
+
+          Hey ${{ github.actor }}! 👋
+
+          Welcome to our cutting-edge Business Analysis exercise! You're about to learn how to modernize our WhatsApp claims process using the latest AI tools.
+
+          ## What You'll Learn 📚
+
+          ✅ **GitHub Copilot** - AI-powered assistance for writing requirements and documentation  
+          ✅ **MCP (Model Context Protocol)** - Connect to external data sources for better analysis  
+          ✅ **Professional Documentation** - Create structured, version-controlled requirements  
+          ✅ **AI-Enhanced Analysis** - Leverage AI to improve your business analysis workflow
+
+          ## Your Mission 🎯
+
+          You're working for **ABC Insurance Company** and tasked with analyzing how to introduce WhatsApp into their claims process. You'll replace the current legacy system with a new straight-through process driven via WhatsApp.
+
+          ## Ready to Get Started? 🚀
+
+          This exercise is **self-paced** - take breaks when needed! The entire exercise takes about **45 minutes** to complete.
+
+          **Remember:** Feel free to experiment and ask questions. This is a safe learning environment!
+
+          ---
+
+          *Ready for your first step? I'll post the instructions below!* ⬇️
+          EOF
+          )")
+          
+          echo "issue-url=$ISSUE_URL" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   post_next_step_content:
     name: Post next step content
@@ -34,38 +76,52 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get response templates
-        uses: actions/checkout@v4
-        with:
-          repository: skills/exercise-toolkit
-          path: exercise-toolkit
-          ref: v0.7.0
-
-      - name: Build comment - add step content
+      - name: Build step 1 content
         id: build-comment
-        uses: skills/action-text-variables@v1
-        with:
-          template-file: ${{ env.STEP_1_FILE }}
-          template-vars: |
-            full_repo_name=${{ github.repository }}
+        run: |
+          # Read the step 1 file and replace variables
+          STEP_CONTENT=$(cat "${{ env.STEP_1_FILE }}" | sed "s/{{repo_owner}}\\/{{repo_name}}/${{ github.repository }}/g")
+          
+          # Create the formatted comment
+          cat << 'EOF' > step1_comment.md
+          ---
 
-      - name: Create comment - add step content
+          ## 📋 Step 1: Setting Up Your Business Analysis Environment
+
+          EOF
+          
+          echo "$STEP_CONTENT" >> step1_comment.md
+
+      - name: Post step 1 content
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body "$ISSUE_BODY"
+            --body-file step1_comment.md
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_BODY: ${{ steps.build-comment.outputs.updated-text }}
 
-      - name: Create comment - watching for progress
+      - name: Post progress tracking comment
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body-file exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
+            --body "$(cat << 'EOF'
+          ---
+          
+          ## 👀 I'm watching for your progress!
+          
+          I'll automatically check your progress and provide feedback as you complete each step.
+          
+          **Need help?** 
+          - Comment on this issue if you get stuck
+          - Check the troubleshooting sections in each step
+          - Remember: this is a learning exercise, so take your time!
+          
+          **Pro tip:** Keep this issue open in a tab so you can easily reference the instructions! 📌
+          EOF
+          )"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Disable current workflow and enable next one
+      - name: Enable next workflow
         run: |
-          gh workflow enable "Step 1"
+          gh workflow enable "Step 1" || echo "Step 1 workflow not found - will be enabled when created"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
