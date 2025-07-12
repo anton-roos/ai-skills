@@ -77,7 +77,8 @@ jobs:
           template-vars: |
             title: ${{ inputs.exercise-title }}
             login: ${{ github.actor }}
-            intro_message: ${{ inputs.intro-message }}
+            intro_message: |
+              ${{ inputs.intro-message }}
 
       - name: Create issue - add welcome message
         id: create-issue
