@@ -1,5 +1,4 @@
-
-# Insurance Business Analysis Excercise
+# AI Skills
 
 This excercise is designed for Business Analysts and Actuaries in the Insurance sector.
 [![GitHub Repo stars](https://img.shields.io/github/stars/anton-roos/ai-skills)](https://github.com/anton-roos/ai-skills)
