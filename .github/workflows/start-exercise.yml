@@ -67,14 +67,21 @@ jobs:
 
       - name: Build welcome message from template
         id: build-issue-description
-        uses: skills/action-text-variables@v3
-        with:
-          template-file: .github/markdown-templates/welcome.md
-          template-vars: |
-            title: ${{ inputs.exercise-title }}
-            login: ${{ github.actor }}
-            intro_message: |
-              ${{ inputs.intro-message }}
+        run: |
+          # Read the template file and replace variables manually
+          TEMPLATE_CONTENT=$(cat .github/markdown-templates/welcome.md)
+          
+          # Replace template variables
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ title \}\}/${{ inputs.exercise-title }}}"
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ login \}\}/${{ github.actor }}}"
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ intro_message \}\}/$INTRO_MESSAGE}"
+          
+          # Output the processed template
+          echo "updated-text<<EOF" >> $GITHUB_OUTPUT
+          echo "$TEMPLATE_CONTENT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+        env:
+          INTRO_MESSAGE: ${{ inputs.intro-message }}
 
       - name: Create issue - add welcome message
         id: create-issue
@@ -104,15 +111,21 @@ jobs:
 
       - name: Build welcome message from template
         id: build-new-readme
-        uses: skills/action-text-variables@v3
-        with:
-          template-file: .github/markdown-templates/exercise-started.md
-          template-vars: |
-            title: ${{ inputs.exercise-title }}
-            login: ${{ github.actor }}
-            issue_url: ${{ needs.create_exercise.outputs.issue-url }}
-            repo_owner: ${{ github.repository_owner }}
-            repo_name: ${{ github.event.repository.name }}
+        run: |
+          # Read the template file and replace variables manually
+          TEMPLATE_CONTENT=$(cat .github/markdown-templates/exercise-started.md)
+          
+          # Replace template variables
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ title \}\}/${{ inputs.exercise-title }}}"
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ login \}\}/${{ github.actor }}}"
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ issue_url \}\}/${{ needs.create_exercise.outputs.issue-url }}}"
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ repo_owner \}\}/${{ github.repository_owner }}}"
+          TEMPLATE_CONTENT="${TEMPLATE_CONTENT//\{\{ repo_name \}\}/${{ github.event.repository.name }}}"
+          
+          # Output the processed template
+          echo "updated-text<<EOF" >> $GITHUB_OUTPUT
+          echo "$TEMPLATE_CONTENT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Overwrite README
         env:
