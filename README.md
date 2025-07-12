@@ -28,6 +28,12 @@ Simply copy the exercise to your account, then give your favorite Octocat (Mona)
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=skills-business-analysis&description=Exercise:+Business%20Analysis%20with%20MCP%20and%20AI&visibility=public)
 
+### Work in the cloud with Codespaces
+
+Once you've created your repository from the template, you can work directly in the browser using GitHub Codespaces:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
+
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
