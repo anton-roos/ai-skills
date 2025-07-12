@@ -1,4 +1,4 @@
-# Insurance Business Analysis Excercise
+# AI Skills
 
 This excercise is designed for Business Analysts and Actuaries in the Insurance sector.
 
