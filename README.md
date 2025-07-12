@@ -1,23 +1,24 @@
-# (replace-me: Exercise title)
+# Insurance Business Analysis Excercise
 
-_(replace-me: One-line description of the exercise)_
+This excercise is designed for Business Analysts and Actuaries in the Insurance sector.
 
 ## Welcome
 
-- **Who is this for**: (replace-me: Target audience description)
-- **What you'll learn**: (replace-me: Learning objectives)
-- **What you'll build**: (replace-me: Description of what the learner will create)
+- **Who is this for**: BAs and Actuaries
+- **What you'll learn**: MCP and how to use AI effectively in the workplace.
+- **What you'll build**: A full business requirements document.
 - **Prerequisites**:
-  - (replace-me: Prerequisite skill/exercise)
-  - (replace-me: Other prerequisites)
+  - Have a GitHub account.
+  - Have a trial or active GitHub Copilot licence.
 
-- **How long**: This exercise takes less than (replace-me: estimated time) to complete.
+- **How long**: This exercise takes less than 45 minutes to complete.
 
 In this exercise, you will:
 
-1. (replace-me: Learning objective step #1)
-1. (replace-me: Learning objective step #2)
-1. (replace-me: Learning objective step #N)
+1. Get a business feature description.
+1. Use an LLM to get more business requirements.
+1. Learn the basics of Python for Business Analysis and requirements gathering.
+1. Understand how MCP servers work and how they can be used within the business.
 
 
 ### How to start this exercise
@@ -25,7 +26,7 @@ In this exercise, you will:
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=exercise-template&owner=%40me&name=skills-<replace-me>&description=Exercise:+Replace+me&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=skills-business-analysis&description=Exercise:+Business Analysis with MCP and AI&visibility=public)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Hollard App",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "src.app:app",
+        "--reload"
+      ],
+      "jinja": true
+    }
+  ]
+}
