@@ -62,12 +62,8 @@ jobs:
       issue-number: ${{ steps.create-issue.outputs.ISSUE_NUMBER }}
 
     steps:
-      - name: Get response templates
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          repository: skills/exercise-toolkit
-          path: exercise-toolkit
-          ref: ${{ env.EXERCISE_TOOLKIT_REF }}
 
       - name: Build welcome message from template
         id: build-issue-description
