@@ -26,22 +26,30 @@ Choose from the following AI skills exercises:
 ### 🤖 Prompt Engineering
 Learn effective prompt engineering techniques and best practices for working with AI models.
 
-[![Start Prompt Engineering Exercise](https://img.shields.io/badge/prompt%20engineering-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=prompt-engineering&owner=%40me&name=ai-skills-prompt-engineering&description=Exercise:+Prompt%20Engineering%20with%20AI&visibility=public)
+<a href="https://github.com/new?template_owner=anton-roos&template_name=prompt-engineering&owner=%40me&name=ai-skills-prompt-engineering&description=Exercise:+Prompt%20Engineering%20with%20AI&visibility=public" target="_blank">
+  <img src="https://img.shields.io/badge/prompt%20engineering-start-e64600?style=for-the-badge&logo=github&labelColor=442359" alt="Start Prompt Engineering Exercise">
+</a>
 
 ### 📊 Business Analysis  
 Use AI to gather business requirements, analyze processes, and create comprehensive documentation.
 
-[![Start Business Analysis Exercise](https://img.shields.io/badge/business%20analysis-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=ai-skills-business-analysis&description=Exercise:+Business%20Analysis%20with%20MCP%20and%20AI&visibility=public)
+<a href="https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=ai-skills-business-analysis&description=Exercise:+Business%20Analysis%20with%20MCP%20and%20AI&visibility=public" target="_blank">
+  <img src="https://img.shields.io/badge/business%20analysis-start-e64600?style=for-the-badge&logo=github&labelColor=442359" alt="Start Business Analysis Exercise">
+</a>
 
 ### 📈 Actuarial Analysis
 Apply AI tools to actuarial modeling, risk assessment, and insurance analytics.
 
-[![Start Actuarial Analysis Exercise](https://img.shields.io/badge/actuarial%20analysis-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=actuarial-analysis&owner=%40me&name=ai-skills-actuarial-analysis&description=Exercise:+Actuarial%20Analysis%20with%20AI&visibility=public)
+<a href="https://github.com/new?template_owner=anton-roos&template_name=actuarial-analysis&owner=%40me&name=ai-skills-actuarial-analysis&description=Exercise:+Actuarial%20Analysis%20with%20AI&visibility=public" target="_blank">
+  <img src="https://img.shields.io/badge/actuarial%20analysis-start-e64600?style=for-the-badge&logo=github&labelColor=442359" alt="Start Actuarial Analysis Exercise">
+</a>
 
 ### 📄 Document Extraction
 Master AI-powered document processing, data extraction, and content analysis techniques.
 
-[![Copy Document Extraction Exercise](https://img.shields.io/badge/Document%20Extraction-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=document-extraction&owner=%40me&name=ai-skills-document-extraction&description=Exercise:+Document%20Extraction%20with%20AI&visibility=public)
+<a href="https://github.com/new?template_owner=anton-roos&template_name=document-extraction&owner=%40me&name=ai-skills-document-extraction&description=Exercise:+Document%20Extraction%20with%20AI&visibility=public" target="_blank">
+  <img src="https://img.shields.io/badge/Document%20Extraction-start-e64600?style=for-the-badge&logo=github&labelColor=442359" alt="Copy Document Extraction Exercise">
+</a>
 
 ---
 
