@@ -2,7 +2,7 @@
 
 <img alt="original github octocat" src="https://octodex.github.com/images/original.png" align="left" height="80px" />
 
-👋 Hey there @{{ login }}! Welcome to your Skills exercise!
+👋 Purple Greetings @{{ login }}! Welcome to your Skills exercise!
 
 {{ intro_message }}
 
