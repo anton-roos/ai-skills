@@ -1,16 +1,16 @@
 # {{ title }}
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard_octocat_professor.png" align="right" height="150px" />
 
-Hey {{ login }}!
+Purple Greetings {{ login }}!
 
 Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Open up the following links in new tabs.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)]({{ issue_url }})
+[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)]({{issue_url}})
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
+[![](https://img.shields.io/badge/Go%20to%20Codespace-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
 
 
 ---
