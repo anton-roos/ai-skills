@@ -4,14 +4,12 @@
 
 Purple Greetings {{ login }}!
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Mona here. I'm done preparing your exercise. Hope you enjoy! 💜
 
 Open up the following links in new tabs.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)]({{issue_url}})
-
-[![](https://img.shields.io/badge/Go%20to%20Codespace-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
-
+[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359)]({{issue_url}})
+[![](https://img.shields.io/badge/Go%20to%20Codespace-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
 
 ---
 

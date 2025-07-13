@@ -1,14 +1,14 @@
 ## {{ title }}
 
-<img alt="original github octocat" src="https://octodex.github.com/images/original.png" align="left" height="80px" />
+<img alt="original github octocat" src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard_octocat.png" align="left" height="80px" />
 
-👋 Purple Greetings @{{ login }}! Welcome to your Skills exercise!
+👋 Purple Greetings @{{ login }}! Welcome to your exercise!
 
 {{ intro_message }}
 
 ---
 
-✨ **This is an interactive, hands-on GitHub Skills exercise!**
+✨ **This is an interactive, hands-on GitHub exercise!**
 
 As you complete each step, I’ll leave updates in the comments:
 
