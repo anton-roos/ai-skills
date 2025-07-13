@@ -43,27 +43,6 @@ Master AI-powered document processing, data extraction, and content analysis tec
 
 [![Copy Document Extraction Exercise](https://img.shields.io/badge/Document%20Extraction-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=document-extraction&owner=%40me&name=ai-skills-document-extraction&description=Exercise:+Document%20Extraction%20with%20AI&visibility=public)
 
-### Work in the cloud with Codespaces
-
-Once you've created your repository from the template, you can work directly in the browser using GitHub Codespaces. Follow the instructions on the newly created repository to use your codespace.
-
-<details>
-<summary>Having trouble? 🤷</summary><br/>
-
-When copying the exercise, we recommend the following settings:
-
-- For owner, choose your personal account or an organization to host the repository.
-
-- We recommend creating a public repository, since private repositories will use Actions minutes.
-
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
-
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
-
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
-
-</details>
-
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
