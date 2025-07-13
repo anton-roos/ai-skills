@@ -1,42 +1,51 @@
 # AI Skills
 
-This excercise is designed for Business Analysts and Actuaries in the Insurance sector.
+Learn practical AI skills through hands-on exercises designed for professionals across various domains.
+
 [![GitHub Repo stars](https://img.shields.io/github/stars/anton-roos/ai-skills)](https://github.com/anton-roos/ai-skills)
 
 ## Welcome
 
-- **Who is this for**: BAs and Actuaries
-- **What you'll learn**: MCP and how to use AI effectively in the workplace.
-- **What you'll build**: A full business requirements document.
+- **Who is this for**: Professionals looking to enhance their AI skills
+- **What you'll learn**: Practical AI applications using tools like MCP and GitHub Copilot
+- **What you'll build**: Real-world projects across different domains
 - **Prerequisites**:
-  - Have a GitHub account.
-  - Have a trial or active GitHub Copilot licence.
+  - Have a GitHub account
+  - Have a trial or active GitHub Copilot licence
 
-- **How long**: This exercise takes less than 45 minutes to complete.
+- **How long**: Each exercise takes 30-60 minutes to complete
 
-In this exercise, you will:
+## Getting Started
 
-1. Get a business feature description.
-1. Use an LLM to get more business requirements.
-1. Learn the basics of Python for Business Analysis and requirements gathering.
-1. Understand how MCP servers work and how they can be used within the business.
+Choose an exercise below and click "Copy Exercise" to create your own copy. Give GitHub **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
-### Star this rep for later
+## Available Exercises
 
+Choose from the following AI skills exercises:
 
+### 🤖 Prompt Engineering
+Learn effective prompt engineering techniques and best practices for working with AI models.
 
+[![Start Prompt Engineering Exercise](https://img.shields.io/badge/prompt%20engineering-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=prompt-engineering&owner=%40me&name=ai-skills-prompt-engineering&description=Exercise:+Prompt%20Engineering%20with%20AI&visibility=public)
 
+### 📊 Business Analysis  
+Use AI to gather business requirements, analyze processes, and create comprehensive documentation.
 
-### How to start this exercise
+[![Start Business Analysis Exercise](https://img.shields.io/badge/business%20analysis-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=ai-skills-business-analysis&description=Exercise:+Business%20Analysis%20with%20MCP%20and%20AI&visibility=public)
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+### 📈 Actuarial Analysis
+Apply AI tools to actuarial modeling, risk assessment, and insurance analytics.
 
-<!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197985)](https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=skills-business-analysis&description=Exercise:+Business%20Analysis%20with%20MCP%20and%20AI&visibility=public)
+[![Start Actuarial Analysis Exercise](https://img.shields.io/badge/actuarial%20analysis-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=actuarial-analysis&owner=%40me&name=ai-skills-actuarial-analysis&description=Exercise:+Actuarial%20Analysis%20with%20AI&visibility=public)
+
+### 📄 Document Extraction
+Master AI-powered document processing, data extraction, and content analysis techniques.
+
+[![Copy Document Extraction Exercise](https://img.shields.io/badge/Document%20Extraction-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=document-extraction&owner=%40me&name=ai-skills-document-extraction&description=Exercise:+Document%20Extraction%20with%20AI&visibility=public)
 
 ### Work in the cloud with Codespaces
 
-Once you've created your repository from the template, you can work directly in the browser using GitHub Codespaces:
+Once you've created your repository from the template, you can work directly in the browser using GitHub Codespaces. Follow the instructions on the newly created repository to use your codespace.
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
