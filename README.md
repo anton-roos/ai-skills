@@ -2,8 +2,6 @@
 
 Learn practical AI skills through hands-on exercises designed for professionals across various domains.
 
-<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard-octocat-student.png" align="center" />
-
 ## Getting Started
 
 Choose an exercise below and click "Copy Exercise" to create your own copy. Give GitHub **about 20 seconds** to prepare the first lesson, then **refresh the page**.
