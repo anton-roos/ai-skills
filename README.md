@@ -2,10 +2,6 @@
 
 Learn practical AI skills through hands-on exercises designed for professionals across various domains.
 
-<a href="https://github.com/anton-roos/ai-skills" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/github/stars/anton-roos/ai-skills" alt="GitHub Repo stars">
-</a>
-
 ## Welcome
 
 - **Who is this for**: Professionals looking to enhance their AI skills
