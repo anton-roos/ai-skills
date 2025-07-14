@@ -8,12 +8,8 @@ Mona here. I'm done preparing your exercise. Hope you enjoy! 💜
 
 Open up the following links in new tabs.
 
-<a href="{{issue_url}}" target="_blank">
-  <img src="https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359" alt="Go to Exercise">
-</a>
-<a href="https://codespaces.new/{{repo_owner}}/{{repo_name}}" target="_blank">
-  <img src="https://img.shields.io/badge/Go%20to%20Codespace-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359" alt="Go to Codespace">
-</a>
+[![Go to Exercise](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359)]({{issue_url}})
+[![Go to Codespace](https://img.shields.io/badge/Go%20to%20Codespace-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
 
 ---
 
