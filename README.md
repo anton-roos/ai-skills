@@ -10,8 +10,6 @@ Choose an exercise below and click "Copy Exercise" to create your own copy. Give
 
 ## Available Exercises
 
-Choose from the following AI skills exercises:
-
 ### 🤖 Prompt Engineering
 Learn effective prompt engineering techniques and best practices for working with AI models.
 
