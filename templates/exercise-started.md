@@ -1,6 +1,6 @@
 # {{ title }}
 
-<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard_octocat_professor.png" align="right" height="150px" />
+<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard-octocat-professor.png" align="right" height="150px" />
 
 Purple Greetings {{ login }}!
 

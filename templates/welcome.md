@@ -1,6 +1,6 @@
 ## {{ title }}
 
-<img alt="original github octocat" src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard_octocat.png" align="left" height="80px" />
+<img alt="original github octocat" src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard-octocat.png" align="left" height="80px" />
 
 👋 Purple Greetings @{{ login }}! Welcome to your exercise!
 
