@@ -13,7 +13,7 @@ Open up the following links in new tabs.
 [![Go to Codespace](https://img.shields.io/badge/Go%20to%20Codespace-%E2%86%92-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://codespaces.new/{{repo_owner}}/{{repo_name}})
 
 When it prompts you to create a codespace, click on `Create Codespace`
-<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/create-workspace.png" align="right" height="150px" />
+<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/create-workspace.png" align="center" height="150px" />
 
 ---
 
