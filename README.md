@@ -33,7 +33,7 @@ Learn effective prompt engineering techniques and best practices for working wit
 ### 📊 AI with Python  
 Use Python to utilise the power of LLMs.
 
-[![Start AI with Python Exercise](https://img.shields.io/badge/ai%20with%20python-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=business-analysis&owner=%40me&name=ai-skills-business-analysis&description=Exercise:+Business%20Analysis%20with%20MCP%20and%20AI&visibility=public)
+[![Start AI with Python Exercise](https://img.shields.io/badge/ai%20with%20python-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=ai-with-python&owner=%40me&name=ai-skills-ai-with-python&description=Exercise:+AI%20with%20Python&visibility=public)
 
 ---
 
