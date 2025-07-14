@@ -2,16 +2,7 @@
 
 Learn practical AI skills through hands-on exercises designed for professionals across various domains.
 
-## Welcome
-
-- **Who is this for**: Professionals looking to enhance their AI skills
-- **What you'll learn**: Practical AI applications using tools like MCP and GitHub Copilot
-- **What you'll build**: Real-world projects across different domains
-- **Prerequisites**:
-  - Have a GitHub account
-  - Have a trial or active GitHub Copilot licence
-
-- **How long**: Each exercise takes 30-60 minutes to complete
+<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/hollard-octocat-student.png" align="center" />
 
 ## Getting Started
 
