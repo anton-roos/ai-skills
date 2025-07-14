@@ -1,6 +1,4 @@
-# AI Skills
-
-Learn practical AI skills through hands-on exercises designed for professionals across various domains.
+<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/banner.jpg" align="center" />
 
 ## Getting Started
 
