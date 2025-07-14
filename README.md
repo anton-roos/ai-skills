@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Choose an exercise below and click "Copy Exercise" to create your own copy. Give GitHub **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+Choose an exercise below and open it in a new tab. Give GitHub **about 20 seconds** to prepare the first lesson, then **refresh the page**. Please star this repository to find it easier in the future.
 
 ## Available Exercises
 
