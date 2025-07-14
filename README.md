@@ -37,4 +37,4 @@ Use Python to utilise the power of LLMs.
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; Copyright 2025 Hollard &bull; [Privacy](https://www.hollard.co.za/our-world/company-overview/hollard-privacy) &bull; [Legal Requirements](https://www.hollard.co.za/our-world/company-overview/legal-requirements) &bull; [MIT License](https://gh.io/mit)
