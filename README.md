@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/anton-roos/ai-skills/refs/heads/main/images/banner.jpg" align="center" />
-
 ## Getting Started
 
 Choose an exercise below and open it in a new tab. Give GitHub **about 20 seconds** to prepare the first lesson, then **refresh the page**. Please star this repository to find it easier in the future.
@@ -15,7 +13,3 @@ Learn effective prompt engineering techniques and best practices for working wit
 Use Python to utilise the power of LLMs.
 
 [![Start AI with Python Exercise](https://img.shields.io/badge/ai%20with%20python-start-e64600?style=for-the-badge&logo=github&labelColor=442359)](https://github.com/new?template_owner=anton-roos&template_name=ai-with-python&owner=%40me&name=ai-skills-ai-with-python&description=Exercise:+AI%20with%20Python&visibility=public)
-
----
-
-&copy; Copyright 2025 Hollard &bull; [Privacy](https://www.hollard.co.za/our-world/company-overview/hollard-privacy) &bull; [Legal Requirements](https://www.hollard.co.za/our-world/company-overview/legal-requirements) &bull; [MIT License](https://gh.io/mit)
